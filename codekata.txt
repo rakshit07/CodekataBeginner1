@@ -1,0 +1,278 @@
+1)
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+
+class Number
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int i=0 ;
+		/*Scanner s = new Scanner(System.in);*/
+		
+		if(i<0){
+			System.out.print("Negative Number");
+		}
+		
+		else if(i>0){
+			System.out.print("Positive Number");
+		}
+		
+		else
+		{
+			System.out.print("Number is 0");
+		}
+		
+	}
+}
+
+2)
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+ 
+class Type 
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int i=0 ;
+		/*Scanner s = new Scanner(System.in);*/
+ 
+		if(i%2==0){
+			System.out.print("Even Number");
+		}
+ 
+		else
+		{
+			System.out.print("Odd Number");
+		}
+ 
+	}
+}
+
+3)
+
+import java.util.*;
+import java.lang.*; 
+import java.io.*;
+import java.util.Scanner;
+ 
+class letters
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+switch(ch)
+        {
+            case 'a':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'e':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'i':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'o':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'u':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            default:
+            System.out.println("The entered alphabet is a consonant");
+        }
+        
+
+	}
+}
+
+4)
+ import java.util.*;
+import java.lang.*;
+import java.io.*;
+class alphabet
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        char ch;
+
+        Scanner s = new Scanner(System.in);
+        ch = s.next().charAt(0);
+        System.out.print("Enter the character you want to check:"+ ch);
+        if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
+        {
+        	System.out.println("\n the character :"+ch+" is an alphabet");
+        }
+        else
+        {
+        System.out.println("Undefined");
+        }
+
+        
+        
+        
+
+	}
+}
+
+5)
+
+import java.util.Scanner;
+
+class larger1
+
+{
+        
+public static void main(String args[])
+        
+{
+                
+int x1,x2,x3;
+                
+int large;
+                
+Scanner s = new Scanner(System.in);
+                
+System.out.println("Enter value for x1 : ");
+                
+x1=s.nextInt();
+                
+System.out.println("Enter value for x2 : ");
+                
+x2=s.nextInt();
+                
+System.out.println("Enter value for x3 : ");
+                
+x3=s.nextInt();
+                
+large = x1;
+                
+if (x2 > large)
+                        
+large = x2;
+                
+if (x3 > large)
+                        
+large = x3;
+                
+System.out.println("\n\n\tLargest number = " + large);
+        
+}
+
+}
+
+6)
+
+class leapyear
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		
+       for(i=1900;i<=2020;i++)
+        {
+         if(i%4==0)
+        {
+        System.out.println(i+" is a leap year");
+        }
+        }
+	}
+}
+
+7)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class helloworld
+{
+	
+     int i;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+		for(i=0;i>5;i++)	
+		System.out.println("Hello World!!");
+	}
+}
+
+8)
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class helloworld
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter value for x1 : ");
+                
+        num=s.nextInt();
+        while(i<num)
+	{
+ 	sum=sum+i;
+ 	i++;
+	}
+	}
+}
+
+9)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class natural
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter number:");
+                
+        num=s.nextInt();
+        for(i=0;i>num;i++)
+	{
+ 	sum=sum+i;
+ 	}
+	System.out.println("The sum of the digits is:"+sum);
+	}
+}
+
+10)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class natural
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter number:");
+                
+        num=s.nextInt();
+        while(num>0)
+	{
+ 	num=num/10;
+	i++;
+	System.out.println("The sum of the digits is:"+i);
+	}
+	}
+}
